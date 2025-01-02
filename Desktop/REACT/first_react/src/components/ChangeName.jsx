@@ -12,12 +12,20 @@ function ChangeName()
         setName("Shriya")
     }
 
+    let [students, changeStudent]=useState("Nisha");
+    const change3=()=>{
+        changeStudent("Alok")
+    }
+
     return(
         <div>
             <h1 onClick={change}>{year}</h1>
             <hr />
 
             <h1 onClick={change2}>{changeName}</h1>
+
+            <hr />
+            <h1 onClick={change3} className="name">{students}</h1>
 
           
         </div>

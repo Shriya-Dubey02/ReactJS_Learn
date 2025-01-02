@@ -6,10 +6,12 @@ import Student from './components/Student';
 import Demo from './components/Demo';
 import Demo2 from './components/Demo2';
 import ChangeName from './components/ChangeName';
+import Counter from './components/Counter';
+import EvenOdd from './components/EvenOdd';
+import EvenOdd2 from './components/EvenOdd2';
+import DisplayName from './components/DisplayName';
 
-
-
-// Function based component
+// Function based component and class based
 function App() {
   return (
     <div className="App">
@@ -23,6 +25,15 @@ function App() {
       <Demo2 date="01/01/2025"/>
 
       <ChangeName/>
+      <Counter />
+      
+      <EvenOdd />
+
+      <DisplayName />
+
+      
+
+      
   
     </div>
   );

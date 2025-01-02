@@ -40,5 +40,16 @@
 .student{
   background-color: #61dafb;
 }
+.name{
+  color: maroon;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  border: 3px solid black;
+  border-width: 50%;
+
+}
+.name1{
+  background-color:aquamarine
+}
 
 
