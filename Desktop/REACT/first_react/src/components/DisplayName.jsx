@@ -8,9 +8,19 @@ function DisplayName()
     let[breadth,setBreadth] =useState(7);
     let[area,setArea]=useState(length*breadth);
     useEffect(()=>{
-       setArea(length*breadth);
+     
+      let value= setTimeout(() => {
+        setArea(length*breadth);
+        
+       }, 5000);
+       // cleanup function : timer ko clear karna
+       return()=>{
+        console.log("cleanup function");
+        clearTimeout(value);
+       }
 
-    },[length,breadth])
+     },[length,breadth])
+    
 
     return(
         <div>

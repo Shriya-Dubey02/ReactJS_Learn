@@ -10,7 +10,8 @@ import Counter from './components/Counter';
 import EvenOdd from './components/EvenOdd';
 import EvenOdd2 from './components/EvenOdd2';
 import DisplayName from './components/DisplayName';
-
+import CalculateSquare from './components/CalculateSquare';
+import LoggedIn from './components/LoggedIn';
 // Function based component and class based
 function App() {
   return (
@@ -30,6 +31,11 @@ function App() {
       <EvenOdd />
 
       <DisplayName />
+
+      <CalculateSquare />
+
+      <LoggedIn />
+      
 
       
 
